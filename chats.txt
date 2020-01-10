@@ -16,3 +16,6 @@ cc
 
 mnb
 nbv
+vvv
+sss
+rrr

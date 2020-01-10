@@ -5,6 +5,7 @@ async function lasiChatu(){
     const datuObjekts= await atbilde.json();
     radiChatuVienkarsi(datuObjekts);
     await new Promise(resolve=>setTimeout(resolve, ATJAUNOT));
+    lasiChatu();
 }
 
 
