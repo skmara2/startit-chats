@@ -1,0 +1,1 @@
+console.log ("sveiciens no konsoles");
