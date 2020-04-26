@@ -3,7 +3,7 @@ from flask import Flask, render_template, json, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask('app')
-app.config['SQLALCHEMY_DATABSE_URL'] = os.environ['DATABSE_URL']
+app.config['SQLALCHEMY_DATABSE_URI'] = os.environ['DATABSE_URL']
 db=SQLAlchemy(app)
 
 class test(db.Model):
