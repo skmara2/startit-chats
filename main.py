@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, json, jsonify, request
-from flask_sqlalchemy importSQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask('app')
 app.config['SQLALCHEMY_DATABASE_URL']=os.environ['DATABASE_URL']
